@@ -1,0 +1,37 @@
+{
+  "name": "hide-view-twitter",
+  "displayName": "Hide View Count",
+  "version": "0.0.1",
+  "description": "Hide View Count on Twitter timeline",
+  "author": "n4ze3m",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build",
+    "package": "plasmo package"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.4",
+    "plasmo": "0.59.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "^3.2.4"
+  },
+  "devDependencies": {
+    "@plasmohq/prettier-plugin-sort-imports": "3.6.0",
+    "@types/chrome": "0.0.202",
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9",
+    "prettier": "2.7.1",
+    "typescript": "4.9.3"
+  },
+  "manifest": {
+    "permissions": [
+      "scripting",
+      "storage"
+    ],
+    "host_permissions": [
+      "https://*/*"
+    ]
+  }
+}

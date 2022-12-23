@@ -120,7 +120,7 @@ function IndexPopup() {
 					</svg>
 				</a>
 				<a
-					href="https://github.com/n4ze3m/hide-twt-circle"
+					href="https://github.com/n4ze3m/hide-view-twitter"
 					target="_blank"
 					rel="noreferrer"
 				>
